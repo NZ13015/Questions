@@ -86,7 +86,7 @@ function checkBalance() {
 //This codes are used for Driving License Eligibility System
 
   function checkEligibility() {
-            let name = document.getElementById("name").value;
+            let name = document.getElementById("Name").value;
             let age = parseInt(document.getElementById("age").value);
             let output = "";
 
@@ -112,7 +112,7 @@ function checkBalance() {
                          "Decision: Proceed after Medical Examination";
             }
 
-            document.getElementById("result").innerHTML = output;
+            document.getElementById("form").innerHTML = output;
         }
 
 //This codes are used for Student Marks Grading System
